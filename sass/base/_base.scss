@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+html {
+    /* calculation for 1 rem: browser default is 16px,  we want 1 rem = 10px. Hence : (10/16)*100 = 62.5% */
+    /* font-size: 10px; */
+    font-size: 62.5%;
+}
+body {
+    box-sizing: border-box;
+}
