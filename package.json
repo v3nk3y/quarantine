@@ -1,0 +1,22 @@
+{
+  "name": "quarantine",
+  "version": "1.0.0",
+  "description": "Landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v3nk3y/venky-css-sass.git"
+  },
+  "author": "v3nk3y",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v3nk3y/venky-css-sass/issues"
+  },
+  "homepage": "https://github.com/v3nk3y/venky-css-sass#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
